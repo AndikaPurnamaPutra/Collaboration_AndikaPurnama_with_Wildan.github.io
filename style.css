@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    --pure-blue: #007bda;
+    --dark-blue: #222330;
+    --bright-red: #E82849;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.navbar-brand span {
+    color: var(--pure-blue);
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(34, 35, 48, 0.4);
+    margin-right: 16px;
+}
+
+.nav-link:hover {
+    color: var(--pure-blue) !important;
+}
+
+.btn-nav {
+    font-size: 14px;
+    padding: 8px 22px;
+    border-radius: 10px;
+}
+
+
+/* utility */
+
+.tombol {
+    font-size: 14px;
+    padding: 15px 22px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.heading span {
+    color: var(--pure-blue);
+}
+
+
+/* Home */
+
+.home {
+    padding-top: 7.5rem;
+}
+
+.home-content .location {
+    font-size: 16px;
+    color: var(--pure-blue);
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.home-content .location i {
+    margin-right: 8px;
+}
+
+.home-content h3 {
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.4);
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+
+/* Service */
+
+.service-work {
+    padding-top: 5.5rem;
+}
+
+.service-content h3 {
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.service-content p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.4);
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+.service-box .card {
+    width: 300px;
+    padding: 32px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 8px 40px 10px rgba(68, 68, 68, 0.04);
+    border: none;
+}
+
+.service-box .card .icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--pure-blue);
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+.service-box .card .icon i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.service-box .card h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.service-box .card p {
+    font-size: 16px;
+    line-height: 34px;
+    color: rgba(34, 35, 48, 0.4);
+}
+
+
+/* Features */
+
+.features {
+    padding-top: 7.5rem;
+}
+
+.features h3 {
+    margin-bottom: 80px;
+}
+
+.features .row {
+    margin-bottom: 100px;
+}
+
+.featured-content h4 {
+    font-size: 22px;
+    line-height: 45px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.featured-content p {
+    font-size: 16px;
+    line-height: 34px;
+    color: rgba(34, 35, 48, 0.4);
+    margin-bottom: 30px;
+}
+
+
+/* Testimonial */
+
+.testimonial {
+    min-height: 85vh;
+    padding-top: 6.5rem;
+}
+
+.testimonial h3 {
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.testimonial .btn {
+    margin-right: 20px;
+}
+
+.box-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.box-container::-webkit-scrollbar {
+    width: 0;
+}
+
+.profile {
+    min-width: 340px;
+    height: 240px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 8px 40px 10px rgba(68, 68, 68, 0.04);
+    border: none;
+}
+
+.profile h4 {
+    font-size: 22px;
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+.profile p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.6);
+}
+
+p.review {
+    font-size: 16px;
+    line-height: 34px;
+    color: rgba(34, 35, 48, 0.4);
+}
+
+
+/* blog */
+
+.blog {
+    padding-top: 5.5rem;
+}
+
+.blog h3 {
+    margin-bottom: 80px;
+}
+
+.blog .card {
+    width: 320px;
+    height: 510px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 8px 40px 10px rgba(68, 68, 68, 0.04);
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+}
+
+p.date {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.6);
+    margin: 20px 0;
+}
+
+h4.card-title {
+    font-size: 22px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+p.card-text {
+    font-size: 16px;
+    line-height: 34px;
+    color: rgba(34, 35, 48, 0.4);
+    margin-bottom: 24px;
+}
+
+.read-more .btn {
+    font-size: 16px;
+    text-align: center;
+    color: var(--bright-red);
+    padding: 8px 24px;
+    margin-top: 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+
+/* Subscribe */
+
+.subscribe {
+    padding-top: 7.5rem;
+}
+
+.subscribe h3 {
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.subscribe h3 span {
+    color: var(--bright-red);
+}
+
+.subscribe input {
+    width: 250px;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(34, 35, 48, 0.4);
+}
+
+.subscribe .search {
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribe .read-more {
+    font-size: 16px;
+    text-align: center;
+    color: var(--bright-red);
+    padding: 8px 24px;
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+
+.accordion-body {
+    font-size: 14.5px;
+    color: rgba(34, 35, 48, 0.6);
+    line-height: 30px;
+}
+
+
+/* Footer */
+
+.footer {
+    min-height: 65vh;
+}
+
+.footer .company h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 30px;
+}
+
+.footer .company h4 span {
+    color: var(--pure-blue);
+}
+
+.footer .company p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.4);
+    line-height: 27px;
+}
+
+.footer .social-media {
+    margin-top: 30px;
+}
+
+.footer .social-media a {
+    font-size: 24px;
+    color: var(--dark-blue);
+    margin-right: 20px;
+}
+
+.footer .resources h5 {
+    font-size: 18px;
+    color: var(--dark-blue);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer .resources p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.4);
+    line-height: 30px;
+}
+
+.footer .about-us h5 {
+    font-size: 18px;
+    color: var(--dark-blue);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer .about-us p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.4);
+    line-height: 30px;
+}
+
+.footer .newsletter h5 {
+    font-size: 24px;
+    color: var(--dark-blue);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer .newsletter p {
+    font-size: 16px;
+    color: rgba(34, 35, 48, 0.4);
+    line-height: 34px;
+    margin-bottom: 24px;
+}
+
+.footer input.email-input {
+    width: 250px;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(34, 35, 48, 0.4);
+    margin-right: 20px;
+}
+
+.footer .copyright h5 {
+    font-size: 16px;
+    margin-top: 160px;
+}
+
+.footer .copyright h5 span {
+    color: var(--pure-blue);
+}
+
+
+/* Media Query */
+
+@media (max-width: 575.98px) {
+    .btn-nav {
+        font-size: 12px;
+        padding: 8px 22px;
+    }
+    .tombol {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+    .navbar-brand {
+        font-size: 22px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    .btn-nav {
+        font-size: 14px;
+        padding: 8px 22px;
+        border-radius: 10px;
+    }
+    .home {
+        padding-top: 5.5rem;
+        text-align: center;
+    }
+    .home-content .location {
+        margin: 20px 0;
+        font-size: 14px;
+    }
+    .home-content .location i {
+        margin-right: 8px;
+    }
+    .home-content h3 {
+        font-size: 24.5px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .home-content h3 span {
+        color: var(--pure-blue);
+    }
+    .home-content p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+    .service-work {
+        padding-top: 5.5rem;
+    }
+    .service-content h3 {
+        font-size: 24.5px;
+        margin-bottom: 0;
+    }
+    .service-content p {
+        font-size: 14px;
+        line-height: 34px;
+        margin-bottom: 24px;
+    }
+    .service-box .card {
+        width: 165px;
+        height: 165px;
+        padding: 6px;
+        margin: 20px 0;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 1px 8px 40px 10px rgba(68, 68, 68, 0.04);
+        border: none;
+    }
+    .service-box .card .icon {
+        width: 30px;
+        height: 30px;
+        background-color: var(--pure-blue);
+        border-radius: 10px;
+        padding: 3px;
+        margin-bottom: 20px;
+    }
+    .service-box .card .icon i {
+        font-size: 14px;
+        color: #fff;
+    }
+    .service-box .card h4 {
+        font-size: 14px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    .service-box .card p {
+        font-size: 14px;
+        color: rgba(34, 35, 48, 0.4);
+        line-height: 22px;
+    }
+    .features {
+        padding-top: 5.5rem;
+    }
+    .features h3 {
+        font-size: 24.5px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .features .row {
+        margin-bottom: 36px;
+    }
+    .featured-content h4 {
+        font-size: 20px;
+        line-height: 45px;
+        color: var(--dark-blue);
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    .featured-content p {
+        font-size: 14px;
+        color: rgba(34, 35, 48, 0.4);
+        line-height: 22px;
+    }
+    .testimonial {
+        min-height: 45vh;
+        padding-top: 6.5rem;
+    }
+    .testimonial h3 {
+        font-size: 24.5px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .testimonial .btn {
+        margin-right: 20px;
+    }
+    .box-container {
+        display: flex;
+        overflow-x: auto;
+        margin-top: 40px;
+    }
+    .box-container::-webkit-scrollbar {
+        width: 0;
+    }
+    .profile {
+        min-width: 280px;
+        height: 160px;
+        padding: 20px;
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 1px 8px 40px 10px rgba(68, 68, 68, 0.04);
+        border: none;
+    }
+    .profile h4 {
+        font-size: 12px;
+        color: var(--dark-blue);
+        font-weight: 600;
+    }
+    .profile p {
+        font-size: 12px;
+        color: rgba(34, 35, 48, 0.6);
+    }
+    p.review {
+        font-size: 12px;
+        line-height: 22px;
+        color: rgba(34, 35, 48, 0.4);
+    }
+    .blog h3 {
+        font-size: 24.5px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .blog .card {
+        width: 320px;
+        height: auto;
+        margin: 20px auto;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 1px 8px 40px 10px rgba(68, 68, 68, 0.04);
+        border: none;
+    }
+    p.date {
+        font-size: 12px;
+        color: rgba(34, 35, 48, 0.6);
+        margin: 20px 0;
+    }
+    h4.card-title {
+        font-size: 20px;
+        color: var(--dark-blue);
+        font-weight: 600;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    p.card-text {
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(34, 35, 48, 0.4);
+        margin-bottom: 24px;
+    }
+    .read-more .btn {
+        font-size: 12px;
+    }
+    .subscribe {
+        min-height: 65vh;
+        padding-top: 5.5rem;
+    }
+    .subscribe h3 {
+        font-size: 24.5px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 20px;
+        padding-right: 75px;
+    }
+    .subscribe h3 span {
+        color: var(--bright-red);
+    }
+    .subscribe input {
+        width: 250px;
+        font-size: 14px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        border: 1px solid rgba(34, 35, 48, 0.4);
+    }
+    .subscribe .search {
+        font-size: 14px;
+        margin-left: 10px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        border: none;
+    }
+    .subscribe .read-more {
+        font-size: 12px;
+        margin-bottom: 80px;
+    }
+    .accordion-item {
+        border: none;
+        margin-bottom: 20px;
+    }
+    .accordion-button {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--dark-blue);
+    }
+    .accordion-body {
+        font-size: 12.5px;
+        color: rgba(34, 35, 48, 0.6);
+        line-height: 24px;
+    }
+    .footer {
+        min-height: 65vh;
+    }
+    .footer .company {
+        text-align: center;
+    }
+    .footer .company h4 {
+        font-size: 16px;
+        color: var(--dark-blue);
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .footer .company h4 span {
+        color: var(--pure-blue);
+    }
+    .footer .company p {
+        font-size: 12px;
+        color: var(--dark-blue);
+        line-height: 0;
+    }
+    .footer .social-media {
+        margin-top: 20px;
+    }
+    .footer .social-media a {
+        font-size: 16px;
+        color: var(--dark-blue);
+        margin-right: 20px;
+    }
+    .footer .resources {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .footer .resources h5 {
+        font-size: 12px;
+        color: var(--dark-blue);
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .footer .resources p {
+        font-size: 12px;
+        color: rgba(34, 35, 48, 0.4);
+        line-height: 12px;
+    }
+    .footer .about-us {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .footer .about-us h5 {
+        font-size: 12px;
+        color: var(--dark-blue);
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .footer .about-us p {
+        font-size: 12px;
+        color: rgba(34, 35, 48, 0.4);
+        line-height: 12px;
+    }
+    .footer .newsletter {
+        text-align: center;
+    }
+    .footer .newsletter h5 {
+        font-size: 20px;
+        color: var(--dark-blue);
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .footer .newsletter p {
+        font-size: 12.5px;
+        color: rgba(34, 35, 48, 0.4);
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+    .footer input.email-input {
+        width: 180px;
+        font-size: 12px;
+        padding: 12px 18px;
+        border-radius: 10px;
+        border: 1px solid rgba(34, 35, 48, 0.4);
+        margin-right: 10px;
+    }
+    .footer .copyright h5 {
+        font-size: 12px;
+        margin-top: 36px;
+    }
+    .footer .copyright h5 span {
+        color: var(--pure-blue);
+    }
+}
